@@ -87,7 +87,7 @@ Save the file(*CTRL+c*) but do not close it. The next process is repetitive but 
        $ [Desktop Entry]
         $ Name=MaryTTS Component Installer
         $ Exec=/home/username/marytts/marytts-5.2/bin/marytts-component-installer
-        $ Terminal=true
+        $ Terminal=false
         $ Type=Application
         $ Icon=/full/path/to/folder/icon.png
 
