@@ -65,7 +65,7 @@ From here we have a few more chores to do. As we did before, we want to make ass
     
 Even though *this project still needs the code to auto-start the local text-to-speech services*, I wanted to ensure that the MaryTTS client, server, and voice component installer are each accessible through a clickable GUI menu (I use a minimal LXDE build). *I'm not actually certain that my update-alternatives and symbolic links routines are the most appropriate/effective*, so having shortcuts in my menu system are a good back-up plan.
 
-    $ sudo nano /home/username/.local/share/applications/MaryTTS-client.desktop
+    $ sudo nano /home/username/.local/share/applications/**MaryTTS-client.desktop**
 
 Paste the following text into the file.
 
