@@ -1,5 +1,6 @@
-# # *****aeson***** : 
-**intelligent assistance for linux machines**
+# # *****aeson***** : *******built atop Debian (amd64) and/or Raspbian (armhf)*******
+   **an artificially-intelligent virtually-assisted ENTITY for LINUX**
+        ****"overly-ambitious" - *Everyone*
 
 #                           ********IN DEVELOPMENT! I NEED HELP!********
 #
