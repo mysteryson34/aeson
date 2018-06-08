@@ -170,7 +170,11 @@ Because of the demand on the RPi and the microSD,  I recommend these steps follo
         login: root
         password: *****  ## this was determined when you installed Debian Stretch without a GUI, remember?
     
-A fresh install of Debian ***without any of the optional desktop environments*** looks surprisingly like Raspbian lite, ehh?    
+A fresh install of Debian ***without any of the optional desktop environments*** looks surprisingly like Raspbian lite, ehh?
+
+Despite this, there are a few important differences that we should address.
+
+  -  ***main contrib non-free***
     
     $
     
