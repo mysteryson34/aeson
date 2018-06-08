@@ -163,11 +163,12 @@ Because of the demand on the RPi and the microSD,  I recommend these steps follo
 
 #    
  And on *****Debian***** (amd64)?   
+ 
     At some point we each must reconcile *what we don't know* with *what we can infer* based on our practices in building AESON thus far. If you are installing from a more-recent release of Stretch, these steps should not interfere or break anything (that I know of).
     
       $ aeson-amd64
         login: root
-        password: *****  ## this was determined when you installed Debian Stretch without a GUI, *remember*?
+        password: *****  ## this was determined when you installed Debian Stretch without a GUI, remember?
     
     
     $ cd ~/
