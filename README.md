@@ -1,7 +1,13 @@
-# aeson   :   intelligent assistant for linux machines
+# aeson   :   intelligent assistance for linux machines
 
-
-
+***IN DEVELOPMENT! I NEED HELP!***
+                    Project Goals
+                        - GOALSET #1
+                        - GOALSET #2
+                        - GOALSET #3
+                        - GOALSET #4
+                        - GOALSET #5
+                        
 #
 **Oracle Java JDK 10**
 
