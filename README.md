@@ -50,3 +50,9 @@ It wasn't entirely necessary to use Oracle JDK 10 for this project, but it worke
 From here we have a few more chores to do. As we did before, we want to make associations prior to firing anything up.
 
     $ sudo ln -s /home/username/marytts/marytts-5.2/bin/marytts-client /usr/bin/marytts-client
+    $ sudo ln -s /home/username/marytts/marytts-5.2/bin/marytts-server /usr/bin/marytts-server
+    $ sudo ln -s /home/username/marytts/marytts-5.2/bin/marytts-component-installer /usr/bin/marytts-component-installer
+    $ sudo update-alternatives --install /usr/bin/marytts-client marytts-client /home/user/marytts/marytts-5.2/bin/marytts-client 1
+    $ sudo update-alternatives --install /usr/bin/marytts-server marytts-server /home/user/marytts/marytts-5.2/bin/marytts-server 1
+    $ sudo update-alternatives --install /usr/bin/marytts-component-installer marytts-component-installer /home/user/marytts/marytts-5.2/bin/marytts-component-installer 1
+    
