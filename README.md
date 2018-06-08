@@ -1,3 +1,3 @@
 # aeson
-# intelligent assistant for linux machines
+ # intelligent assistant for linux machines
 
