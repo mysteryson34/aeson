@@ -156,6 +156,13 @@ If you cannot see a *build* folder after running that command, then you may at *
     $ sudo cp arch/arm/boot/dts/overlays/README /boot/overlays/
     $ sudo cp arch/arm/boot/zImage /boot/$KERNEL.img
     $ sudo reboot
+
+Because of the demand on the RPi and the microSD,  I recommend these steps followed by **backing up your microSD card onto a disc image(.img)** so that - as is always the case with learning and testing - you aren't stuck rebuilding the kernel on a daily basis or burning up your hardware.
+
+    
+    
+    
+    
     
     $ cd ~/
     $ git clone https://github.com/torvalds/linux.git
