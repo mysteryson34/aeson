@@ -133,7 +133,12 @@ The next steps demonstrate how to *update and uprade* the software and hardware 
 
 In regards to my needs for USB-attached hardware devices, many drivers (open-source or otherwise) can easily be found and and cloned from the internet. If you intend on using hardware with the RPi, install the *raspberrypi-kernel-headers* package, then run this command and look at its output.
 
-
+    $ ls /lib/modules/$(uname -r)
+    build   modules.alias      modules.builtin.bin  modules.devname  modules.symbols      updates
+    kernel  modules.alias.bin  modules.dep          modules.order    modules.symbols.bin
+    misc    modules.builtin    modules.dep.bin      modules.softdep  source
+    
+If you cannot see a *build* folder after running that command, then you may at *any* point have trouble compiling binaries for drivers necessary for operability with a single-board computer like the RPi. The most recent *raspberrypi-kernel-headers* package may or may not provide you with the mysterious build folder. I could be wrong but I think that new full-kernel releases are sometimes/routinely delayed or omitted from Raspbian images because of the existence of kernel headers (must. do. more. learning.).  Thus, it has become common practice to "build the kernel" so that I can compile device driver binaries from great places like **github**.
 
 
 
