@@ -33,8 +33,12 @@ It wasn't entirely necessary to use Oracle JDK 10 for this project, but it worke
 #
 **MaryTTS (Client, Server, and Component Installer)**
 
+
+
     $ cd ~/
     $ git clone https://github.com/mysteryson34/marytts.git
     $ cd marytts
     $ sudo -u user git fetch --tags
     $ sudo -u user git checkout v5.2
+    $ sudo unzip marytts-5.2.zip
+    $ cd marytts-5.2
