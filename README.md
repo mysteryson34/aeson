@@ -1,5 +1,8 @@
 # aeson   :   intelligent assistant for linux machines
 
+
+
+
 **Oracle Java JDK 10**
 
 For this project, Oracle Java JDK 10.0.1 was initially installed from binaries located at 
