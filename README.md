@@ -18,12 +18,12 @@ The files should extract to a new directory (example /home/username/jdk-10.0.1) 
 
 Next, we need to make sure that our version of the JDK is the one that is automatically selected for use.
 
-    sudo update-alternatives --install /usr/bin/java java /user/lib/jvm/jdk-10.0.1/bin/java 1
+    sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk-10.0.1/bin/java 1
     sudo update-alternatives --config java
 
 Follow the prompt to select JDK 10 as the default.
 
-    user@aeson:~$ java -version
+    username@aeson:~$ java -version
     java version "10.0.1" 2018-04-17
     Java(TM) SE Runtime Environment 18.3 (build 10.0.1+10)
     Java HotSpot(TM) 64-Bit Server VM 18.3 (build 10.0.1+10, mixed mode)
@@ -42,8 +42,8 @@ It wasn't entirely necessary to use Oracle JDK 10 for this project, but it worke
     $ cd ~/
     $ git clone https://github.com/mysteryson34/marytts.git
     $ cd marytts
-    $ sudo -u user git fetch --tags
-    $ sudo -u user git checkout v5.2
+    $ sudo -u username git fetch --tags
+    $ sudo -u username git checkout v5.2
     $ sudo unzip marytts-5.2.zip
     $ cd marytts-5.2/bin
 
@@ -52,7 +52,7 @@ From here we have a few more chores to do. As we did before, we want to make ass
     $ sudo ln -s /home/username/marytts/marytts-5.2/bin/marytts-client /usr/bin/marytts-client
     $ sudo ln -s /home/username/marytts/marytts-5.2/bin/marytts-server /usr/bin/marytts-server
     $ sudo ln -s /home/username/marytts/marytts-5.2/bin/marytts-component-installer /usr/bin/marytts-component-installer
-    $ sudo update-alternatives --install /usr/bin/marytts-client marytts-client /home/user/marytts/marytts-5.2/bin/marytts-client 1
-    $ sudo update-alternatives --install /usr/bin/marytts-server marytts-server /home/user/marytts/marytts-5.2/bin/marytts-server 1
-    $ sudo update-alternatives --install /usr/bin/marytts-component-installer marytts-component-installer /home/user/marytts/marytts-5.2/bin/marytts-component-installer 1
+    $ sudo update-alternatives --install /usr/bin/marytts-client marytts-client /home/username/marytts/marytts-5.2/bin/marytts-client 1
+    $ sudo update-alternatives --install /usr/bin/marytts-server marytts-server /home/username/marytts/marytts-5.2/bin/marytts-server 1
+    $ sudo update-alternatives --install /usr/bin/marytts-component-installer marytts-component-installer /home/username/marytts/marytts-5.2/bin/marytts-component-installer 1
     
