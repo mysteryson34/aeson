@@ -126,6 +126,7 @@ At the onset of this project I was over-ambitious about a "*cluster-y*" network 
 *WE ALL HAVE OUR QUIRKS & PREFERENCES*
 In most situations where I use a Raspberry Pi, I am most-typically doing so headless-ly and via SSH/SFTP. I was influenced by Raspbian (lite) and - while installing Debian on my **old** MacBook - I decided not to include any preconfigurd desktop environments out-of-the-box, and to match Raspbian lite with my own amd64 rendition of Debian...lite? Below are some of the packages that I seem to need (?), as well as some of the procedures/pains that I went through on each platform.
 
+I have some hardware that doesn't have immediate support on the RPi. I often use the Edimax EW-7822ULC/UTC adapter and it is handy for networked machines because it can operate on the 5GHz band.  
     $ sudo apt-get update && sudo apt-get upgrade -y && sudo rpi-update && sudo apt-get clean && sudo reboot
     $ sudo apt-get install raspberrypi-kernel-headers bc git git-core libncurses5-dev -y
     $ cd ~/
