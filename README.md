@@ -16,4 +16,15 @@ Next, we need to make sure that our version of the JDK is the one that is automa
     sudo update-alternatives --install /usr/bin/java java /user/lib/jvm/jdk-10.0.1/bin/java 1
     sudo update-alternatives --config java
 
+Follow the prompt to select JDK 10 as the default.
+
+    root@aeson:~$ java -version
+    java version "10.0.1" 2018-04-17
+    Java(TM) SE Runtime Environment 18.3 (build 10.0.1+10)
+    Java HotSpot(TM) 64-Bit Server VM 18.3 (build 10.0.1+10, mixed mode)
+
+
+
+
+
     git clone https://github.com/mysteryson34/marytts.git
