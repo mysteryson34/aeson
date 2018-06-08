@@ -56,3 +56,4 @@ From here we have a few more chores to do. As we did before, we want to make ass
     $ sudo update-alternatives --install /usr/bin/marytts-server marytts-server /home/username/marytts/marytts-5.2/bin/marytts-server 1
     $ sudo update-alternatives --install /usr/bin/marytts-component-installer marytts-component-installer /home/username/marytts/marytts-5.2/bin/marytts-component-installer 1
     
+Even though *this project still needs the code to auto-start the local text-to-speech services*, I wanted to ensure that the MaryTTS client, server, and voice component installer are each accessible through a clickable GUI menu (I use a minimal LXDE build).
