@@ -124,11 +124,16 @@ Save the file(*CTRL+c*) and close out of your text editor.
 At the onset of this project I was over-ambitious about a "*cluster-y*" network of RPi microcomputers; each with its own dedicated purpose in the execution of this project's goals. While I learned **a lot** in my tinkerings (see below), this process came with some caveats, delights, disappointments, and surprises.
 
 *WE ALL HAVE OUR QUIRKS & PREFERENCES*
+
 In most situations where I use a Raspberry Pi, I am most-typically doing so headless-ly and via SSH/SFTP. I was influenced by Raspbian (lite) and - while installing Debian on my **old** MacBook - I decided not to include any preconfigurd desktop environments out-of-the-box, and to match Raspbian lite with my own amd64 rendition of Debian...lite? Below are some of the packages that I seem to need (?), as well as some of the procedures/pains that I went through on each platform.
 
 I have some hardware that doesn't have immediate support on the RPi. I often use the Edimax EW-7822ULC/UTC adapter and it is handy for networked machines because it can operate on the 5GHz band. As you will later see, there are many combinations of uses/misuses for miscellaneous hardware attachments and the RPi. Fortunately, in this case, a fix was made available from Edimax (https://edimax.freshdesk.com/support/solutions/articles/14000062079-how-to-install-ew-7822ulc-adapter-on-raspberry-pi).
 
-The next steps demonstrate how to *update and uprade* the software and hardware of the Raspberry Pi, as well as how to build the full kernel for the machine or for cross-compiling (further instructions at https://www.raspberrypi.org/documentation/linux/kernel/building.md).
+The next steps demonstrate how to *update and uprade* the software and hardware of the Raspberry Pi, as well as how to *build the full kernel* for the machine or for cross-compiling (further instructions at https://www.raspberrypi.org/documentation/linux/kernel/building.md).
+
+In regards to my needs for USB-attached hardware devices, many drivers (open-source or otherwise) can easily be found and and cloned from the internet. If you intend on using hardware with the RPi, install the *raspberrypi-kernel-headers* package, then run this command and look at its output.
+
+
 
 
 
