@@ -34,7 +34,7 @@ It wasn't entirely necessary to use Oracle JDK 10 for this project, but it worke
 #
 **Users & Groups**
 
-The processes for completing these steps are almost identical on the *Stretch* releases of both **Debian** and **Raspbian** (tested on RPi models 3B and 3B+). 
+The processes for completing these steps are almost identical on the *Stretch* releases of both **Debian** and **Raspbian** (tested on RPi models 3B and 3B+). Other versions of the JDK are likely to work, though it is recommended that you use the **Oracle** iterations of the software, if you can.
 
 
 #
