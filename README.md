@@ -36,7 +36,7 @@ It wasn't entirely necessary to use Oracle JDK 10 for this project, but it worke
 
 The processes for completing these steps are almost identical on the *Stretch* releases of both **Debian** and **Raspbian** (tested on RPi models 3B and 3B+). Other versions of the JDK are likely to work, though it is recommended that you use the **Oracle** iterations of the software, if you can.
 
-Other online instructions for MaryTTS (https://github.com/marytts/marytts/wiki/Local-MaryTTS-Server-Installation) will ask you to 1) create a *mary* user and a *mary* group. Then they will ask you to 2) *mkdir* and *chown* the **/local/mary/marytts** directory, where would then perform your git checkout. HOWEVER, *those* instructions also include a (broken) method for compiling MaryTTS from its source. For the goals of the project, it is so-far unnecessary for the MaryTTS server to operate as a system user.
+Other online instructions for MaryTTS (https://github.com/marytts/marytts/wiki/Local-MaryTTS-Server-Installation) will ask you to 1) create a *mary* user and a *mary* group. Then they will ask you to 2) *mkdir* and *chown* the **/local/mary/marytts** directory, where you would then 3) perform your git checkout. HOWEVER, *those* instructions also include 4) a (broken) method for compiling MaryTTS from its source. For the goals of the project, it is so-far unnecessary for the MaryTTS server to operate as a system user.
 
 IDEA/NOTE: If you want a *true* MaryTTS server, the binaries could be installed on a headless Raspberry Pi. As it is being developed, AESON is conceived/tested using **two strategies** which I'll explain further on.
 
@@ -65,9 +65,9 @@ From here we have a few more chores to do. As we did before, we want to make ass
     
 Even though *this project still needs the code to auto-start the local text-to-speech services*, I wanted to ensure that the MaryTTS client, server, and voice component installer are each accessible through a clickable GUI menu (I use a minimal LXDE build). *I'm not actually certain that my update-alternatives and symbolic links routines are the most appropriate/effective*, so having shortcuts in my menu system are a good back-up plan.
 
-    $ sudo nano /home/username/.local/share/applications/**MaryTTS-client.desktop**
+    $ sudo nano /home/username/.local/share/applications/
 
-Paste the following text into the file.
+Paste the following text into the file (**MaryTTS-client.desktop**).
 
         $ [Desktop Entry]
         $ Name=MaryTTS Client
