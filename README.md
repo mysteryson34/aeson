@@ -174,7 +174,9 @@ A fresh install of Debian ***without any of the optional desktop environments***
 
 Despite this, there are a few important differences that we should address.
 
-  -  ***main contrib non-free***
+  -  ***"main contrib non-free"***
+  
+  You need to gain acccess to other parts of your repository so that you can eventually/hopefully find (or find and compile) device drivers for your machine. Your output may have mirror addresses as-opposed to the example below, but *you need to add in the **contrib** and **non-free*** entries to each address provide in your sources list.
     
     $
     
