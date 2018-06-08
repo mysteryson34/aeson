@@ -78,6 +78,13 @@ Paste the following text into the file (**MaryTTS-client.desktop**).
 
 Save the file(*CTRL+c*) but do not close it. The next process is repetitive but I consider it necessary.
 
+*NOTE* : The Linea icon set needs to be downloaded and extracted. Because we will likely use it for other aspects of this project, we need to put it somewhere memorable.
+
+    $ cd ~/
+    $ git clone https://github.com/mysteryson34/Linea-Iconset.git
+    $ mkdir Theme
+    $ sudo mv 
+
 *CTRL+o* to save under a new filename, **MaryTTS-server.desktop**, and modify the contents to look like so.
 
        $ [Desktop Entry]
