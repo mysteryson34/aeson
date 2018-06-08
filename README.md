@@ -30,6 +30,10 @@ Follow the prompt to select JDK 10 as the default.
 
 It wasn't entirely necessary to use Oracle JDK 10 for this project, but it worked (w/ Debian 4.9.0.6-amd64...and on a 2007 MacBook, ha!) and perhaps it will future-proof the default JDK for some time.
 
+
+#
+**Users & Groups**
+
 #
 **MaryTTS (Client, Server, and Component Installer)**
 
@@ -41,4 +45,8 @@ It wasn't entirely necessary to use Oracle JDK 10 for this project, but it worke
     $ sudo -u user git fetch --tags
     $ sudo -u user git checkout v5.2
     $ sudo unzip marytts-5.2.zip
-    $ cd marytts-5.2
+    $ cd marytts-5.2/bin
+
+From here we have a few more chores to do. As we did before, we want to make associations prior to firing anything up.
+
+    $ sudo ln -s /home/username/marytts/marytts-5.2/bin/marytts-client /usr/bin/marytts-client
