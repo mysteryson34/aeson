@@ -31,7 +31,7 @@ Follow the prompt to select JDK 10 as the default.
 It wasn't entirely necessary to use Oracle JDK 10 for this project, but it worked (w/ Debian 4.9.0.6-amd64...and on a 2007 MacBook, ha!) and perhaps it will future-proof the default JDK for some time.
 
 
-# 
+**MaryTTS (Client, Server, and Component Installer)**
 
     cd ~/
     git clone https://github.com/mysteryson34/marytts.git
