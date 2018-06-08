@@ -235,7 +235,7 @@ Running **visudo** will open up nano.
 
           #includedir /etc/sudoers.d
     
-    
+*CTRL+x* to exit, then *y* to confirm saving a new version, then hit the *return key* to exit visudo (nano).
     
     
     
