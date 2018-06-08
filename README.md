@@ -1,3 +1,3 @@
 # aeson
     intelligent assistant for linux machines
-https://github.com/mysteryson34/marytts.git
+git clone https://github.com/mysteryson34/marytts.git
