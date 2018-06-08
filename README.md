@@ -141,14 +141,6 @@ In regards to my needs for USB-attached hardware devices, many drivers (open-sou
 If you cannot see a *build* folder after running that command, then you may at *any* point have trouble compiling binaries for drivers necessary for operability with a single-board computer like the RPi. The most recent *raspberrypi-kernel-headers* package may or may not provide you with the mysterious build folder. I could be wrong but I think that new full-kernel releases are sometimes/routinely delayed or omitted from Raspbian images because of the existence of kernel headers (must. do. more. learning.).  Thus, it has become common practice to "build the kernel" so that I can compile device driver binaries from great places like **github**.
 
 
-
-
-
-
-
-
-
-
     $ sudo apt-get update && sudo apt-get upgrade -y && sudo rpi-update && sudo apt-get clean && sudo reboot
     $ sudo apt-get install raspberrypi-kernel-headers bc git git-core libncurses5-dev -y
     $ cd ~/
