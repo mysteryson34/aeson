@@ -63,8 +63,8 @@ Even though *this project still needs the code to auto-start the local text-to-s
 Paste the following text into the file.
 
         $ [Desktop Entry]
-        $ Name=Trello
-        $ Exec=/full/path/to/folder/Trello
+        $ Name=MaryTTS Client
+        $ Exec=/home/username/marytts/marytts-5.2/bin/marytts-client
         $ Terminal=false
         $ Type=Application
-        $ Icon=/full/path/to/folder/Trello/resources/app/static/Icon.png
+        $ Icon=/full/path/to/folder/icon.png
