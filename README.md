@@ -38,6 +38,8 @@ The processes for completing these steps are almost identical on the *Stretch* r
 
 Other online instructions for MaryTTS (https://github.com/marytts/marytts/wiki/Local-MaryTTS-Server-Installation) will ask you to 1) create a *mary* user and a *mary* group. Then they will ask you to 2) *mkdir* and *chown* the **/local/mary/marytts** directory, where would then perform your git checkout. HOWEVER, *those* instructions also include a (broken) method for compiling MaryTTS from its source. For the goals of the project, it is so-far unnecessary for the MaryTTS server to operate as a system user.
 
+IDEA/NOTE: If you want a *true* MaryTTS server, the binaries could be installed on a headless Raspberry Pi. As it is being developed, AESON is conceived/tested using **two strategies** which I'll explain further on.
+
 
 #
 **MaryTTS (Client, Server, and Component Installer)**
