@@ -56,4 +56,15 @@ From here we have a few more chores to do. As we did before, we want to make ass
     $ sudo update-alternatives --install /usr/bin/marytts-server marytts-server /home/username/marytts/marytts-5.2/bin/marytts-server 1
     $ sudo update-alternatives --install /usr/bin/marytts-component-installer marytts-component-installer /home/username/marytts/marytts-5.2/bin/marytts-component-installer 1
     
-Even though *this project still needs the code to auto-start the local text-to-speech services*, I wanted to ensure that the MaryTTS client, server, and voice component installer are each accessible through a clickable GUI menu (I use a minimal LXDE build).
+Even though *this project still needs the code to auto-start the local text-to-speech services*, I wanted to ensure that the MaryTTS client, server, and voice component installer are each accessible through a clickable GUI menu (I use a minimal LXDE build). *I'm not actually certain that my update-alternatives and symbolic links routines are the most appropriate/effective*, so having shortcuts in my menu system are a good back-up plan.
+
+    $ sudo nano /home/username/.local/share/applications/MaryTTS-client.desktop
+
+Paste the following text into the file.
+
+        $ [Desktop Entry]
+        $ Name=Trello
+        $ Exec=/full/path/to/folder/Trello
+        $ Terminal=false
+        $ Type=Application
+        $ Icon=/full/path/to/folder/Trello/resources/app/static/Icon.png
