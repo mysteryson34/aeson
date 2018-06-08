@@ -118,7 +118,7 @@ Save the file(*CTRL+c*) but do not close it. The next process is repetitive but 
 
 Save the file(*CTRL+c*) and close out of your text editor.
 
-Perform similar steps so that Google's **Material Design** Iconset is available for us to use when developing further aspectes of AESON.
+Perform similar steps so that Google's **Material Design** Iconset is available for us to use when developing further aspects of AESON.
 
 #
 **Strategies, Pros & Cons**
@@ -127,7 +127,7 @@ At the onset of this project I was over-ambitious about a "*cluster-y*" network 
 
 *WE ALL HAVE OUR QUIRKS & PREFERENCES*
 
-In most situations where I use a Raspberry Pi, I am most-typically doing so headless-ly and via SSH/SFTP. I was influenced by Raspbian (lite) and - while installing Debian on my **old** MacBook - I decided not to include any preconfigurd desktop environments out-of-the-box, and to match Raspbian lite with my own amd64 rendition of Debian...lite? Below are some of the packages that I seem to need (?), as well as some of the procedures/pains that I went through on each platform.
+In most situations where I use a Raspberry Pi, I am most-typically doing so headless-ly and via SSH/SFTP. I was influenced by Raspbian (lite) and - while installing Debian on my **old** MacBook - I decided not to include any preconfigured desktop environments out-of-the-box, and to match Raspbian lite with my own amd64 rendition of Debian...lite? Below are some of the packages that I seem to need (?), as well as some of the procedures/pains that I went through on each platform.
 
 I have some hardware that doesn't have immediate support on the RPi. I often use the Edimax EW-7822ULC/UTC adapter and it is handy for networked machines because it can operate on the 5GHz band. As you will later see, there are many combinations of uses/misuses for miscellaneous hardware attachments and the RPi. Fortunately, in this case, a fix was made available from Edimax (https://edimax.freshdesk.com/support/solutions/articles/14000062079-how-to-install-ew-7822ulc-adapter-on-raspberry-pi).
 
