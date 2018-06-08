@@ -124,6 +124,9 @@ Save the file(*CTRL+c*) and close out of your text editor.
 At the onset of this project I was over-ambitious about a "*cluster-y*" network of RPi microcomputers; each with its own dedicated purpose in the execution of this project's goals. While I learned **a lot** in my tinkerings (see below), this process came with some caveats, delights, disappointments, and surprises.
 
 *WE ALL HAVE OUR QUIRKS & PREFERENCES*
-- In most situations where I use a Raspberry Pi, I am most-typically doing so headless-ly and via SSH/SFTP. I was influenced by Raspbian (lite) and - while installing Debian on my **old** MacBook - I decided not to include any preconfigurd desktop environments out-of-the-box, and to match Raspbian lite with my own amd64 rendition of Debian...lite? Below are some of the packages that I seem to need (?), as well as some of the procedures/pains that I went through on each platform.
+In most situations where I use a Raspberry Pi, I am most-typically doing so headless-ly and via SSH/SFTP. I was influenced by Raspbian (lite) and - while installing Debian on my **old** MacBook - I decided not to include any preconfigurd desktop environments out-of-the-box, and to match Raspbian lite with my own amd64 rendition of Debian...lite? Below are some of the packages that I seem to need (?), as well as some of the procedures/pains that I went through on each platform.
 
-   $ sudo apt-get install git git-core 
+    $ sudo apt-get update && sudo apt-get upgrade -y && sudo rpi-update && sudo apt-get clean && sudo reboot
+    $ sudo apt-get install raspberrypi-kernel-headers bc git git-core libncurses5-dev -y
+    $ sudo apt-get install 
+    $ sudo 
