@@ -118,6 +118,8 @@ Save the file(*CTRL+c*) but do not close it. The next process is repetitive but 
 
 Save the file(*CTRL+c*) and close out of your text editor.
 
+Perform similar steps so that Google's **Material Design** Iconset is available for us to use when developing further aspectes of AESON.
+
 #
 **Strategies, Pros & Cons**
 
