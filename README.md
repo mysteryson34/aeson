@@ -176,7 +176,20 @@ Despite this, there are a few important differences that we should address.
 
   -  ***"main contrib non-free"***
   
-  You need to gain acccess to other parts of your repository so that you can eventually/hopefully find (or find and compile) device drivers for your machine. Your output may have mirror addresses as-opposed to the example below, but *you need to add in the **contrib** and **non-free*** entries to each address provide in your sources list.
+  You need to gain acccess to other parts of your repository so that you can eventually/hopefully find (or find and compile) device drivers for your machine. Your output may have mirror addresses as-opposed to the example below, but *you need to add in the **contrib** and **non-free*** entries to each address that is already provided on your sources list.
+
+    $ sudo nano /etc/apt/sources.list
+    
+    ...
+      deb http://ftp.utexas.edu/debian/ stretch main contrib non-free
+      deb-src http://ftp.utexas.edu/debian/ stretch main contrib non-free
+
+      deb http://security.debian.org/debian-security stretch/updates main contrib non-free
+      deb-src http://security.debian.org/debian-security stretch/updates main contrib non-free
+
+
+      deb http://ftp.utexas.edu/debian/ stretch-updates main contrib non-free
+      deb-src http://ftp.utexas.edu/debian/ stretch-updates main contrib non-free
     
     $
     
