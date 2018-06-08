@@ -68,3 +68,27 @@ Paste the following text into the file.
         $ Terminal=false
         $ Type=Application
         $ Icon=/full/path/to/folder/icon.png
+
+Save the file(*CTRL+c*) but do not close it. The next process is repetitive but I consider it necessary.
+
+*CTRL+o* to save under a new filename, **MaryTTS-server.desktop**, and modify the contents to look like so.
+
+       $ [Desktop Entry]
+        $ Name=MaryTTS Server
+        $ Exec=/home/username/marytts/marytts-5.2/bin/marytts-server
+        $ Terminal=true
+        $ Type=Application
+        $ Icon=/full/path/to/folder/icon.png
+
+Save the file(*CTRL+c*) but do not close it. The next process is repetitive but I consider it necessary (hehehe).
+
+*CTRL+o* to save under a new filename, **MaryTTS-component-installer.desktop**, and modify the contents to look like so.
+
+       $ [Desktop Entry]
+        $ Name=MaryTTS Component Installer
+        $ Exec=/home/username/marytts/marytts-5.2/bin/marytts-component-installer
+        $ Terminal=true
+        $ Type=Application
+        $ Icon=/full/path/to/folder/icon.png
+
+Save the file(*CTRL+c*) and close out of your text editor.
