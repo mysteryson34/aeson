@@ -35,3 +35,6 @@ It wasn't entirely necessary to use Oracle JDK 10 for this project, but it worke
 
     cd ~/
     git clone https://github.com/mysteryson34/marytts.git
+    cd marytts
+    $ sudo -u mary git fetch --tags
+    $ 
