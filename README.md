@@ -202,7 +202,7 @@ Despite this, there are a few important differences that we should address.
     $ apt-get install sudo -y
     $ usermod -aG sudo username    ## remember that "username" is this README's stand-in for YOUR USERNAME
 
-Running **visudo** will open up nano.
+Running **visudo** will open up nano. NOTICE the differences in your own visudo config and the one provided in the example below. You should modify your version so that it matches mine. Also note that ***you should replace **username** with your own username***.
 
         $ visudo
         
