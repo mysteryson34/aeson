@@ -133,7 +133,14 @@ In most situations where I use a Raspberry Pi, I am most-typically doing so head
     $ cd linux
     $ KERNEL=kernel7
     $ make bcm2709_defconfig
+    
     $ make -j4 zImage modules dtbs  ## This takes a lot of time and I recommend a fan & heat sinks.
+    $ sudo make modules_install
+    $ sudo cp arch/arm/boot/dts/*.dtb /boot/
+    $ sudo cp arch/arm/boot/dts/overlays/*.dtb* /boot/overlays/
+    $ sudo cp arch/arm/boot/dts/overlays/README /boot/overlays/
+    $ sudo cp arch/arm/boot/zImage /boot/$KERNEL.img
+    $ sudo reboot
     
     $ cd ~/
     $ git clone https://github.com/torvalds/linux.git
