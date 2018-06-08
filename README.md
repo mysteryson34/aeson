@@ -181,6 +181,7 @@ Despite this, there are a few important differences that we should address.
     $ sudo nano /etc/apt/sources.list
     
     ...
+    
       deb http://ftp.utexas.edu/debian/ stretch main contrib non-free
       deb-src http://ftp.utexas.edu/debian/ stretch main contrib non-free
 
@@ -191,7 +192,7 @@ Despite this, there are a few important differences that we should address.
       deb http://ftp.utexas.edu/debian/ stretch-updates main contrib non-free
       deb-src http://ftp.utexas.edu/debian/ stretch-updates main contrib non-free
     
-    $
+*CTRL+x* to exit, then *y* to confirm saving a new version, then *enter* to exit nano. 
     
     
     $ cd ~/
