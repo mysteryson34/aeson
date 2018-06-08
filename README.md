@@ -128,5 +128,12 @@ In most situations where I use a Raspberry Pi, I am most-typically doing so head
 
     $ sudo apt-get update && sudo apt-get upgrade -y && sudo rpi-update && sudo apt-get clean && sudo reboot
     $ sudo apt-get install raspberrypi-kernel-headers bc git git-core libncurses5-dev -y
-    $ sudo apt-get install 
-    $ sudo 
+    $ cd ~/
+    $ git clone --depth=1 https://github.com/raspberrypi/linux
+    $ cd linux
+    $ KERNEL=kernel7
+    $ make bcm2709_defconfig
+    $ make -j4 zImage modules dtbs  ## This takes a lot of time and I recommend a fan & heat sinks.
+    
+    $ cd ~/
+    $ git clone https://github.com/torvalds/linux.git
