@@ -1,7 +1,7 @@
 # # *****aeson***** : 
 **intelligent assistance for linux machines**
 
-***IN DEVELOPMENT! I NEED HELP!***
+#                           ********IN DEVELOPMENT! I NEED HELP!********
 #
                     Project Goals
                         - GOALSET #1: Customize & Integrate
