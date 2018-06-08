@@ -200,8 +200,10 @@ Despite this, there are a few important differences that we should address.
     $ apt-get update
     $ apt-get upgrade -y
     $ apt-get install sudo -y
+    $ usermod -aG sudo username    ## remember that "username" is this README's stand-in for YOUR USERNAME
     $ visudo
-    
+
+Running **visudo** will open
     
     $ cd ~/
     $ git clone https://github.com/torvalds/linux.git
