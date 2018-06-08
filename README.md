@@ -192,7 +192,7 @@ Despite this, there are a few important differences that we should address.
       deb http://ftp.utexas.edu/debian/ stretch-updates main contrib non-free
       deb-src http://ftp.utexas.edu/debian/ stretch-updates main contrib non-free
     
-*CTRL+x* to exit, then *y* to confirm saving a new version, then *enter* to exit nano. 
+*CTRL+x* to exit, then *y* to confirm saving a new version, then hit the *return key* to exit nano. 
     
     
     $ cd ~/
