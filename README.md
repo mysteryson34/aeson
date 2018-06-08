@@ -74,16 +74,19 @@ Paste the following text into the file (**MaryTTS-client.desktop**).
         $ Exec=/home/username/marytts/marytts-5.2/bin/marytts-client
         $ Terminal=false
         $ Type=Application
-        $ Icon=/full/path/to/folder/icon.png
+        $ Icon=/home/username/Theme/Linea/_software/_SVG expanded/software_layers2.svg
 
 Save the file(*CTRL+c*) but do not close it. The next process is repetitive but I consider it necessary.
 
-*NOTE* : The Linea icon set needs to be downloaded and extracted. Because we will likely use it for other aspects of this project, we need to put it somewhere memorable.
+*NOTE* : The **Linea Icon Set** needs to be downloaded. Because we will likely use it for other aspects of this project, we need to put it somewhere memorable and set apart so that we can add other icon sets.
 
-    $ cd ~/
-    $ git clone https://github.com/mysteryson34/Linea-Iconset.git
-    $ mkdir Theme
-    $ sudo mv 
+            $ cd ~/
+            $ git clone https://github.com/mysteryson34/Linea-Iconset.git
+            $ mkdir -p Theme/Linea
+            $ cd Theme/Linea
+            $ sudo mv ~/Linea-Iconset/* .
+            $ cd ~/
+            $ sudo rm -rf Linea-Iconset
 
 *CTRL+o* to save under a new filename, **MaryTTS-server.desktop**, and modify the contents to look like so.
 
