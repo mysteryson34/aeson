@@ -227,9 +227,9 @@ Running **visudo** will open up nano.
           root    ALL=(ALL:ALL) ALL
 
           # Allow members of group sudo to execute any command
-          %sudo   ALL=(ALL:ALL) ALL
-          eason   ALL=(ALL) NOPASSWD: ALL
-          %sys    ALL=(ALL) NOPASSWD: ALL
+          %sudo      ALL=(ALL:ALL) ALL
+          username   ALL=(ALL) NOPASSWD: ALL
+          %sys       ALL=(ALL) NOPASSWD: ALL
 
           # See sudoers(5) for more information on "#include" directives:
 
