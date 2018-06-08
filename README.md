@@ -117,3 +117,7 @@ Save the file(*CTRL+c*) but do not close it. The next process is repetitive but 
         $ Icon=/home/username/Theme/Linea/_basic/_SVG expanded/basic_headset.svg
 
 Save the file(*CTRL+c*) and close out of your text editor.
+
+#
+
+At the onset of this project I was over-ambitious about a "*cluster-y*" network of RPi microcomputers; each with its own dedicated purpose in the execution of this project's goals. While I learned **a lot** in my tinkerings (see below), this process came with some caveats, delights, disappointments, and surprises.
