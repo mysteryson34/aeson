@@ -1,6 +1,8 @@
-# # ********aeson******** : *******built atop Debian (amd64) and/or Raspbian (armhf)*******
+# # ********aeson******** : ***built atop Debian (amd64) and/or Raspbian (armhf)***
+
    **an artificially-intelligent virtually-assisted ENTITY for LINUX**
-        ****"overly-ambitious" - *Everyone*
+   
+   ****"overly-ambitious" - *Everyone*
 
 #                           ********IN DEVELOPMENT! I NEED HELP!********
 #
