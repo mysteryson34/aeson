@@ -201,11 +201,11 @@ Despite this, there are a few important differences that we should address.
     $ apt-get upgrade -y
     $ apt-get install sudo -y
     $ usermod -aG sudo username    ## remember that "username" is this README's stand-in for YOUR USERNAME
-    $ visudo
 
 Running **visudo** will open up nano.
 
-        $ #
+        $ visudo
+        
           # This file MUST be edited with the 'visudo' command as root.
           #
           # Please consider adding local content in /etc/sudoers.d/ instead of
@@ -234,6 +234,11 @@ Running **visudo** will open up nano.
           # See sudoers(5) for more information on "#include" directives:
 
           #includedir /etc/sudoers.d
+    
+    
+    
+    
+    
     
     $ cd ~/
     $ git clone https://github.com/torvalds/linux.git
