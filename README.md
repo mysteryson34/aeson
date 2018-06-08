@@ -7,7 +7,7 @@ Download the source *tar.gz* file to your home user directory (example: /home/us
 
     sudo tar zxvf *.tar.gz
 
-The files should extract to a new directory (example /home/username/jdk-10.0.1) an you will want to create a symbolic link to this directory, like so.
+The files should extract to a new directory (example /home/username/jdk-10.0.1) and you will want to create a symbolic link to this directory, like so.
 
     sudo ln -s /home/username/jdk-10.0.1 /usr/lib/jvm/jdk-10.0.1
 
