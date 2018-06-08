@@ -28,7 +28,7 @@ Follow the prompt to select JDK 10 as the default.
     Java(TM) SE Runtime Environment 18.3 (build 10.0.1+10)
     Java HotSpot(TM) 64-Bit Server VM 18.3 (build 10.0.1+10, mixed mode)
 
-It wasn't entirely necessary to use Oracle JDK 10 for this project, but it worked (w/ Debian 4.9.0.6-amd64...and on a 2007 MacBook, ha!) and perhaps it will future-proof the default JDK for some time.
+It wasn't entirely necessary to use Oracle JDK 10 for this project, but it worked (w/ Linux 4.9.0.6-amd64...and on a 2007 MacBook, ha!) and perhaps it will future-proof the default JDK for some time.
 
 
 #
