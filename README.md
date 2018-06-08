@@ -2,7 +2,7 @@
 
 
 
-
+#
 **Oracle Java JDK 10**
 
 For this project, Oracle Java JDK 10.0.1 was initially installed from binaries located at 
@@ -30,7 +30,7 @@ Follow the prompt to select JDK 10 as the default.
 
 It wasn't entirely necessary to use Oracle JDK 10 for this project, but it worked (w/ Debian 4.9.0.6-amd64...and on a 2007 MacBook, ha!) and perhaps it will future-proof the default JDK for some time.
 
-
+#
 **MaryTTS (Client, Server, and Component Installer)**
 
     cd ~/
