@@ -106,6 +106,6 @@ Save the file(*CTRL+c*) but do not close it. The next process is repetitive but 
         $ Exec=/home/username/marytts/marytts-5.2/bin/marytts-component-installer
         $ Terminal=false
         $ Type=Application
-        $ Icon=/full/path/to/folder/icon.png
+        $ Icon=/home/username/Theme/Linea/_basic/_SVG expanded/basic_headset.svg
 
 Save the file(*CTRL+c*) and close out of your text editor.
