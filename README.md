@@ -36,6 +36,8 @@ It wasn't entirely necessary to use Oracle JDK 10 for this project, but it worke
 
 The processes for completing these steps are almost identical on the *Stretch* releases of both **Debian** and **Raspbian** (tested on RPi models 3B and 3B+). Other versions of the JDK are likely to work, though it is recommended that you use the **Oracle** iterations of the software, if you can.
 
+Other online instructions for MaryTTS (https://github.com/marytts/marytts/wiki/Local-MaryTTS-Server-Installation) will ask you to 1) create a *mary* user and a *mary* group. Then they will ask you to 2) *mkdir* and *chown* the **/local/mary/marytts** directory, where would then perform your git checkout. HOWEVER, *those* instructions also include a (broken) method for compiling MaryTTS from its source. For the goals of the project, it is so-far unnecessary for the MaryTTS server to operate as a system user.
+
 
 #
 **MaryTTS (Client, Server, and Component Installer)**
