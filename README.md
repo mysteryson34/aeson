@@ -1,5 +1,6 @@
 # aeson   :   intelligent assistant for linux machines
 
+**Oracle Java JDK 10**
 For this project, Oracle Java JDK 10.0.1 was initially installed from binaries located at 
 http://www.oracle.com/technetwork/java/javase/downloads/jdk10-downloads-4416644.html
 
@@ -18,7 +19,7 @@ Next, we need to make sure that our version of the JDK is the one that is automa
 
 Follow the prompt to select JDK 10 as the default.
 
-    root@aeson:~$ java -version
+    user@aeson:~$ java -version
     java version "10.0.1" 2018-04-17
     Java(TM) SE Runtime Environment 18.3 (build 10.0.1+10)
     Java HotSpot(TM) 64-Bit Server VM 18.3 (build 10.0.1+10, mixed mode)
@@ -26,6 +27,7 @@ Follow the prompt to select JDK 10 as the default.
 It wasn't entirely necessary to use Oracle JDK 10 for this project, but it worked (w/ Debian 4.9.0.6-amd64...and on a 2007 MacBook, ha!) and perhaps it will future-proof the default JDK for some time.
 
 
+# 
 
-
+    cd ~/
     git clone https://github.com/mysteryson34/marytts.git
