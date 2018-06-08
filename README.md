@@ -188,11 +188,19 @@ Despite this, there are a few important differences that we should address.
       deb http://security.debian.org/debian-security stretch/updates main contrib non-free
       deb-src http://security.debian.org/debian-security stretch/updates main contrib non-free
 
-
       deb http://ftp.utexas.edu/debian/ stretch-updates main contrib non-free
       deb-src http://ftp.utexas.edu/debian/ stretch-updates main contrib non-free
     
-*CTRL+x* to exit, then *y* to confirm saving a new version, then hit the *return key* to exit nano. 
+*CTRL+x* to exit, then *y* to confirm saving a new version, then hit the *return key* to exit nano.
+
+  -  ***A significant *debiation* (pun on 'deviation')***
+  
+  In this next bit of command-line use, notice that we are not using *sudo*...because ***sudo is not a default part of *Debian 'lite'****.
+
+    $ apt-get update
+    $ apt-get upgrade -y
+    $ apt-get install sudo -y
+    $ visudo
     
     
     $ cd ~/
